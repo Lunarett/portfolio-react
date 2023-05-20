@@ -205,7 +205,10 @@ footer {
   justify-content: center;
   align-items: left;
   text-align: left;
-  margin: 10px;
+  margin: 20px;
+  background-color: #18191f;
+  border-radius: 20px;
+  padding: 10px 0 0 20px;
 }
 
 .experienceContainer h1 {
@@ -233,7 +236,7 @@ footer {
   display: flex;
   align-items: left;
   text-align: left;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
 }
 
@@ -294,4 +297,91 @@ footer {
 .footerContent h4 {
   font-size: 20px;
   line-height: 0%;
+}
+
+
+
+
+/* Project Styles */
+.projectMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 20px;
+}
+
+.projectContainer {
+  background-color: #18191f;
+  border-radius: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.titleContainer {
+  width: 85%;
+  text-align: left;
+  padding: 20px;
+}
+
+.titleContainer h1 {
+  font-size: 50px;
+}
+
+.galleryContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.galleryContainer button {
+  background-color: #0000;
+  border-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.galleryContainer button:hover {
+  color: #c5c5c5;
+}
+
+.galleryContainer button:active {
+  color: #7a7a7a;
+}
+
+.galleryContainer .prevBtn {
+  left: 32px;
+}
+
+.galleryContainer img {
+  width: 1024px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.galleryContainer .nextBtn {
+  right: 32px;
+}
+
+.descContainer {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.descContainer h2 {
+  font-size: 35px;
 }
