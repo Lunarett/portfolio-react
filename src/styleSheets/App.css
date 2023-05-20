@@ -1,0 +1,250 @@
+/* Main Page Style */
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 2%;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 2%;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 0%;
+}
+
+p {
+  font-size: 22px;;
+}
+
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  background-color: #202229;
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+
+
+
+/* Banner Style */
+.bannerImg {
+  width: max-content;
+  height: max-content;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bannerContainer {
+  width: max-content;
+  height: 300px;
+  overflow: hidden;
+}
+
+
+
+
+/* Profile Picture Style */
+.faceContainer {
+  order: 0;
+  padding: 10px 40px;
+}
+
+.faceImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 8px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+/* Nav Bar Style */
+.App-nav {
+  background-color: #1d2026;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.App-navContainer {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.App-navBtn {
+  padding: 1rem 2rem;
+  margin: 0 15px;
+  position: relative;
+}
+
+.App-navBtn:hover {
+  background-color: #00000025;
+}
+
+.App-navBtn:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #61dafb;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.App-navBtn:hover::after {
+  transform: scaleX(1);
+}
+
+.App-navBtn:active {
+  background-color: #0000009f;
+}
+
+
+
+
+/* About Styles */
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  background-color: #18191f;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.textContainer {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  margin: 1rem 2rem;
+  padding: 20px;
+}
+
+.textContainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  width: 70%;
+  margin: 4rem 0; 
+}
+
+.skillImg {
+  width: 55px;
+  height: 55px;
+  margin: 0 10px;
+}
+
+
+
+
+/* Work Experience Styles */
+.wxpContainer {
+  width: 70%;
+  margin: 20px 0;
+}
+
+.experienceContainer {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  margin: 10px;
+}
+
+.experienceContainer h1 {
+  font-size: 40px;
+}
+
+.experienceContainer h2 {
+  font-size: 20px;
+  color: #61dafb;
+}
+
+
+
+
+/* Education Styles */
+.educationMainContainer {
+  width: 60%;
+  margin: 40px 0;
+}
+
+.educationContainer {
+  background-color: #18191f;
+  border-radius: 15px;
+  width: auto;
+  display: flex;
+  align-items: left;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.educationContainer .leftBox {
+  width: 100%;
+  margin: 10px;
+}
+
+.educationContainer .rightBox {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}
+
+.educationContainer h1 {
+  font-size: 30px;
+}
+
+.educationContainer h2 {
+  font-size: 15px;
+  color: #61dafb;
+  text-align: right
+}
+
+.educationContainer h3 {
+  font-size: 20px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.629)
+}
