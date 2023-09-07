@@ -19,17 +19,31 @@ function WorkExperience() {
             <h1>Work Experience</h1>
             <div className="wxpContainer">
                 <ExperienceBlock
-                    jobTitle='Game Developer - Unreal Engine 4'
-                    dateFrom='01/06/2022'
-                    dateTo='01/12/2022'
-                    desc='Worked on Unreal Engine 4 and developed UI system for mobile games'
+                    jobTitle='Position'
+                    dateFrom='01/01/2000'
+                    dateTo='01/01/2000'
+                    desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
                 />
 
                 <ExperienceBlock
-                    jobTitle='Game Developer - Unity'
-                    dateFrom='01/06/2021'
-                    dateTo='01/12/2021'
-                    desc='Developed UI system for Wolves of Rome project and worked on shaders for an unannounced project'
+                    jobTitle='Position'
+                    dateFrom='01/01/2000'
+                    dateTo='01/01/2000'
+                    desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+                />
+
+                <ExperienceBlock
+                    jobTitle='Position'
+                    dateFrom='01/01/2000'
+                    dateTo='01/01/2000'
+                    desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+                />
+
+                <ExperienceBlock
+                    jobTitle='Position'
+                    dateFrom='01/01/2000'
+                    dateTo='01/01/2000'
+                    desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
                 />
             </div>
         </div>

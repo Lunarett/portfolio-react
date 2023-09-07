@@ -27,22 +27,21 @@ function App() {
         </nav>
       </header>
 
-      <body>
+      <main>
         <Routes>
           <Route path='/' element={<About />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/work-experience' element={<WorkExperience />} />
           <Route path='/education' element={<Education />} />
         </Routes>
-      </body>
+      </main>
 
       <footer>
         <div className='footerContainer'>
           <div className='footerContent'>
             <h1>Interested? Contact me for hire!</h1>
-            <h4>WhatsApp: +49 173 2029292</h4>
-            <h4>email: e.ageev98@proton.me</h4>
-            <a href="https://www.linkedin.com/in/egorageev/">LinkedIn</a>
+            <h4>Mobile: (312) 555 6789</h4>
+            <h4>email: example@mail.com</h4>
           </div>
         </div>
       </footer>

@@ -24,24 +24,24 @@ function Education() {
 
             <div className="educationMainContainer">
                 <EducationBlock
-                    course='Games Programming'
-                    degree='Diploma'
-                    dateFrom='01/03/2020'
-                    dateTo='01/09/2021'
+                    course='Special Course'
+                    degree='Super Degree'
+                    dateFrom='01/01/2000'
+                    dateTo='01/01/2000'
                 />
 
                 <EducationBlock
-                    course='Audio Engineering'
-                    degree='Bachelors of Arts'
-                    dateFrom='01/03/2018'
-                    dateTo='01/03/2020'
+                    course='Special Course'
+                    degree='Super Degree'
+                    dateFrom='01/01/2000'
+                    dateTo='01/01/2000'
                 />
 
                 <EducationBlock
-                    course='Audio Engineering'
-                    degree='Diploma'
-                    dateFrom='01/09/2016'
-                    dateTo='01/03/2028'
+                    course='Special Course'
+                    degree='Super Degree'
+                    dateFrom='01/01/2000'
+                    dateTo='01/01/2000'
                 />
             </div>
         </div>

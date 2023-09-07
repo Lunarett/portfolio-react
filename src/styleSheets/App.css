@@ -23,7 +23,7 @@ p {
   ;
 }
 
-body {
+main {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -39,6 +39,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 .content {
@@ -75,17 +76,18 @@ footer {
 
 /* Profile Picture Style */
 .faceContainer {
-  order: 0;
-  padding: 10px 40px;
-}
-
-.faceImg {
   width: 200px;
   height: 200px;
+  order: 0;
+  padding: 10px 35px;
   border-radius: 50%;
   border: 8px solid white;
   display: flex;
   justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://media.istockphoto.com/vectors/default-placeholder-man-vector-id844000412?k=6&m=844000412&s=612x612&w=0&h=x3djkqkdsNh1bVyT3SD8lNGMx5vIaoc_2ukOQ6DvpKI=');
 }
 
 
